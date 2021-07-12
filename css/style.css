@@ -46,3 +46,28 @@ main{
     margin-left: 16px;
     font-size: 18px;
 }
+/* -----------------
+   Top Blog Styles
+------------------*/
+.blog .thumbnail img{
+    height: 117px;
+    width: 177px;
+}
+.blog{
+    display: flex;
+}
+.blog-info{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9f9f9f;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #562EFF;
+} 
