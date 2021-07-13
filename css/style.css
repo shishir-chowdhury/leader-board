@@ -85,12 +85,34 @@ main{
 /* -------------
    Courses style
 ---------------- */
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+}
+.course{
+    width: 252px;
+    height: 270px;
+    padding: 10px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgb(238 234 234);
+}
 .course .course-banner img{
     width: 224px;
     height: 104px;
 }
 .course-info{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.course-duration{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: #FEE5DF;
+    color: #ED6B4F;
 }
 .fa-star{
     font-size: 12px;
@@ -100,4 +122,7 @@ main{
 }
 .fa-star.empty{
     color: #AEAEAE;
+}
+.fa-clock{
+    color: #ED6B4F;
 }
